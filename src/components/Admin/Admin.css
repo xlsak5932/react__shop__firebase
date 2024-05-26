@@ -1,0 +1,128 @@
+.admin__box {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.admin__manager {
+  margin: 50px 0px 25px;
+}
+.admin__manager ul {
+  display: flex;
+  justify-content: center;
+}
+.admin__manager ul li {
+  margin-right: 6px;
+}
+.admin__manager ul li:last-child {
+  margin-right: 0px;
+}
+.admin__manager ul li button {
+  border: none;
+  border: 1px solid #bab9b9;
+  border-radius: 4px;
+  padding: 4px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.admin__manager ul li button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.user__list {
+  width: 100%;
+}
+.user__list table {
+}
+.user__list table thead tr {
+}
+.user__list table thead tr th {
+  width: 150px;
+  padding: 10px 0px;
+}
+.user__list table tbody tr {
+  text-align: center;
+}
+.user__list table tbody tr td {
+  padding: 10px 10px;
+}
+
+.product__description {
+  text-align: center;
+}
+.product__register {
+  border: none;
+  border: 1px solid #bab9b9;
+  border-radius: 4px;
+  padding: 4px 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.product__register:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.add__product__img {
+  width: 175px;
+}
+
+.admin__product__delete,
+.admin__product__update {
+  border: none;
+  border: 1px solid #bab9b9;
+  border-radius: 4px;
+  padding: 7px 27px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.admin__product__delete:hover,
+.admin__product__update:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* .admin__product__tab */
+.admin__product__tab {
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+.admin__product__tab .active {
+  background-color: #ff8c00;
+}
+.admin__product__tab ul {
+  display: flex;
+  justify-content: center;
+}
+.admin__product__tab ul li {
+  margin-right: 7px;
+}
+.admin__product__tab ul li button {
+  border: none;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.admin__product__tab ul li button:hover {
+  background-color: #ff8c00;
+  color: #fff;
+}

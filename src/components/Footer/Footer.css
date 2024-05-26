@@ -1,0 +1,37 @@
+.footer {
+  border-top: 1px solid #ebebeb;
+  padding: 50px 0px;
+  background-color: #f9f8f8;
+}
+
+.footer__box {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* footer__left */
+.footer__left {
+  margin-right: 75px;
+}
+.footer__left h4 {
+  margin-bottom: 15px;
+}
+.footer__left ul {
+}
+.footer__left ul li {
+  list-style: decimal;
+  margin-bottom: 7px;
+}
+
+/* footer__right */
+.footer__right h4 {
+  margin-bottom: 15px;
+}
+.footer__right ul {
+}
+.footer__right ul li {
+  list-style: decimal;
+  margin-bottom: 7px;
+}

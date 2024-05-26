@@ -1,0 +1,151 @@
+.section1 {
+  padding: 80px 0px;
+}
+.section1__box {
+  width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.section1__box__title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+/* tag */
+.section1__tag ul {
+  display: flex;
+}
+.section1__tag ul li {
+  margin-right: 7px;
+}
+.section1__tag ul li:last-child {
+  margin-right: 0px;
+}
+.section1__tag ul li button {
+  border: none;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.section1__tag ul li button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.section1__tag .active {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Product */
+.section1__product {
+  display: flex;
+  flex-wrap: wrap; /* 행이 꽉 차면 다음 줄로 이동 */
+  justify-content: flex-start; /* 왼쪽 정렬 */
+}
+.section1__product > div {
+  margin: 7px;
+}
+
+.section1__product__img {
+  width: 175px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* all */
+.all__product__img__box {
+  height: 175px;
+}
+.all__box {
+  margin-top: 25px;
+  /* border: 1px solid #d0d0d0;
+  border-radius: 5px; */
+}
+.all__box__flex {
+  width: 350px;
+  display: flex;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.all__center {
+  margin: 10px;
+}
+.title {
+}
+.description {
+  color: #003bfe;
+  font-size: 17px;
+}
+.price {
+  color: #ff0000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sale {
+  color: #ff0073;
+  font-size: 18px;
+}
+.price__sale {
+  color: #7300ff;
+  font-size: 18px;
+}
+.cart__box {
+}
+.cart__box button {
+  border: none;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 7px 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cart__box button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* skin */
+.skin__box__flex {
+  display: flex;
+  width: 350px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.skin__center {
+  margin: 10px;
+}
+
+/* mask */
+.mask__flex {
+  display: flex;
+  width: 350px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.mask__center {
+  margin: 10px;
+}
+
+/* cle */
+.cle__flex {
+  display: flex;
+  width: 350px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.cle__center {
+  margin: 10px;
+}

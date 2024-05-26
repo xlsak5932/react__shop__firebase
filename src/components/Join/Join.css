@@ -1,0 +1,79 @@
+.join {
+  padding: 85px 0;
+}
+.join__box {
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  padding: 50px 0px;
+}
+.join__title {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.join__email input {
+  width: 200px;
+  height: 18px;
+  border: none;
+  border: 1px solid #c7c6c6;
+  border-radius: 5px;
+  padding: 5px 0px 5px 4px;
+  margin-bottom: 8px;
+  transition: all 0.2s;
+}
+.join__email .join__Email__overlap {
+  border: none;
+  border: 1px solid #c7c6c6;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: #3c3c3c;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.join__email .join__Email__overlap:hover {
+  background-color: #767676;
+}
+
+.join__password input {
+  width: 300px;
+  height: 18px;
+  border: none;
+  border: 1px solid #c7c6c6;
+  border-radius: 5px;
+  padding: 5px 0px 5px 4px;
+  margin-bottom: 8px;
+  transition: all 0.2s;
+}
+.join__user__kind select {
+  width: 300px;
+  border: none;
+  border: 1px solid #c7c6c6;
+  border-radius: 5px;
+  padding: 5px 0px 5px 4px;
+  margin-bottom: 8px;
+  transition: all 0.2s;
+}
+input:hover {
+  border: 1px solid #090909;
+}
+select:hover {
+  border: 1px solid #090909;
+}
+.btn__join {
+  width: 300px;
+  border: none;
+  border: 1px solid #c7c6c6;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: #3c3c3c;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn__join:hover {
+  background-color: #767676;
+}

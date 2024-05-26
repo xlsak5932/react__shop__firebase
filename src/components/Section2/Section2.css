@@ -1,0 +1,33 @@
+/* .section2 */
+.section2 {
+  background-color: #fcfaf7;
+}
+
+/* .section2__box */
+.section2__box {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0px;
+}
+.section2__box h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+/* .section2__new__item */
+.section2__new__item {
+}
+.section2__new__item ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2__new__item ul li {
+  margin-right: 45px;
+  border: 1px solid #e8e8e8;
+  border-radius: 7px;
+}
+.section2__new__item ul li img {
+  width: 350px;
+}
