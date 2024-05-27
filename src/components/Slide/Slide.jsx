@@ -15,13 +15,13 @@ const Slide = () => {
           showThumbs={false}
         >
           <div>
-            <img src="../../../public/banner1.jpg" />
+            <img src="/banner1.jpg" />
           </div>
           <div>
-            <img src="../../../public/banner2.jpg" />
+            <img src="/banner2.jpg" />
           </div>
           <div>
-            <img src="../../../public/banner3.jpg" />
+            <img src="/banner3.jpg" />
           </div>
         </Carousel>
       </div>
