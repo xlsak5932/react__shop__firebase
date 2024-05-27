@@ -1,8 +1,14 @@
-# React + Vite
+### 쇼핑몰 사이트 주소
+https://master--reactshop2.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 사용한 기술 스택
+1. Vite
+2. React
+3. firebase
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 쇼핑몰 사이트 소개
+1. 회원가입을 합니다.(이메일, 비밀번호, 유저(관리자, 고객) 선택)
+2. 관리자 모드로 회원가입을 하면. 관리 페이지가 나옵니다
+   (관리 페이지에서 회원가입한 유저 / 상품 등록 / 등록한 상품 보기가 가능합니다)
+3. 메인페이지에는 등록한 상품이 보여집니다.
+4. 슬라이드는 부트스트랩인 "Carousel"을 이용하였습니다.
