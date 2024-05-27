@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import "./Navbar.css";
@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   function JoinFunction() {
-    navigator("/Join");
+    navigate("/join");
   }
 
   return (

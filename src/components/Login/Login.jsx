@@ -70,7 +70,7 @@ const Login = () => {
 
         <div className="login__password__box">
           <input
-            type="text"
+            type="password"
             placeholder="비밀번호 입력"
             onChange={(e) => {
               setUserLogin({ ...userLogin, password: e.target.value });
