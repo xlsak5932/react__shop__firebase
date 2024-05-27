@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import  { useState } from "react";
+import {  useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import { auth, fireDB, fireStorage } from "../../firebase/FirebaseConfig";
+import { auth, fireDB } from "../../firebase/FirebaseConfig";
 import {
   Timestamp,
   addDoc,
