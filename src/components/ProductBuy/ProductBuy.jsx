@@ -114,11 +114,11 @@ const ProductBuy = () => {
               >
                 {product.sale <= 0
                   ? (product.price * plus)
-                      .toString()
+                      .toString().split(".")[0]
                       .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
                   : product.price
                   ? product.price
-                      .toString()
+                      .toString().split(".")[0]
                       .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
                   : ""}
                 원
@@ -136,7 +136,7 @@ const ProductBuy = () => {
                 {product.sale <= 0
                   ? ""
                   : ((product.price / product.sale) * plus)
-                      .toString()
+                      .toString().split(".")[0]
                       .replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "원"}
               </span>
             </div>

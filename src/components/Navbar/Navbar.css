@@ -10,7 +10,8 @@ a {
 }
 
 .nav {
-  background-color: #f0efef;
+  border-bottom: 1px solid #e1e0e0;
+  background-color: #ffffff;
 }
 
 .nav__box {

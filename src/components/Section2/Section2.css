@@ -1,6 +1,7 @@
 /* .section2 */
 .section2 {
-  background-color: #fcfaf7;
+  background-color: #fff;
+  border-top: 1px solid #e1e0e0;
 }
 
 /* .section2__box */
